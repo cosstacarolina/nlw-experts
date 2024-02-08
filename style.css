@@ -22,7 +22,7 @@ main{
   padding: 20px;
   border: 1px solid #F9C1F1;
   max-width: 640px;
-  margin: 0 auto; /*top right bottom left*/
+  margin: 0 auto 64px; /*top right bottom left*/
 }
 
 header{
