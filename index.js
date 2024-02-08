@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a função do método 'querySelector' em JavaScript?",
-      respostas: [
-        "Selecionar um elemento do HTML por sua classe",
-        "Selecionar um elemento do HTML por seu ID",
-        "Selecionar um elemento do HTML por sua tag",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é uma closure em JavaScript?",
-      respostas: [
-        "Um tipo de loop",
-        "Uma função que não retorna valor",
-        "Uma função que tem acesso ao escopo externo no qual foi definida",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual destes métodos é utilizado para adicionar um elemento ao final de um array em JavaScript?",
-      respostas: [
-        "push()",
-        "concat()",
-        "pop()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que o método 'map()' faz em um array em JavaScript?",
-      respostas: [
-        "Remove elementos do array",
-        "Altera todos os elementos do array",
-        "Cria um novo array com os resultados de uma função aplicada a cada elemento do array",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é o operador de igualdade estrita em JavaScript?",
-      respostas: [
-        "==",
-        "===",
-        "!=",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o resultado da expressão '3' + 2 em JavaScript?",
-      respostas: [
-        "32",
-        "5",
-        "Erro",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Uma linguagem de programação",
-        "Um formato de dados",
-        "A representação do documento HTML que JavaScript pode usar para modificar o conteúdo e a estrutura da página",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a função do método 'addEventListener()' em JavaScript?",
-      respostas: [
-        "Remover um ouvinte de evento",
-        "Adicionar um ouvinte de evento a um elemento HTML",
-        "Criar um novo elemento HTML",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é uma variável em JavaScript?",
-      respostas: [
-        "Um valor constante",
-        "Um container para armazenar dados",
-        "Uma função",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o método 'reduce()' faz em um array em JavaScript?",
-      respostas: [
-        "Adiciona um novo elemento ao array",
-        "Remove elementos do array",
-        "Executa uma função para cada elemento do array, resultando em um único valor de retorno",
-      ],
-      correta: 2
-    },
-  ];
+  {
+    pergunta: "Qual é o nome do campeão com uma flecha gigante em League of Legends?",
+    respostas: [
+      "Ashe",
+      "Vayne",
+      "Miss Fortune",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o objetivo principal do jogo League of Legends?",
+    respostas: [
+      "Capturar torres",
+      "Matar monstros neutros",
+      "Destruir o nexus inimigo",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do torneio mundial de League of Legends?",
+    respostas: [
+      "League of Legends Championships Series (LCS)",
+      "Mid-Season Invitational (MSI)",
+      "League of Legends World Championship (Worlds)",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do mapa principal de League of Legends?",
+    respostas: [
+      "Summit's Rift",
+      "Twisted Treeline",
+      "Summoner's Rift",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o número máximo de jogadores em uma equipe no modo padrão de League of Legends?",
+    respostas: [
+      "3",
+      "5",
+      "7",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o termo usado para descrever a posição na rota inferior em League of Legends?",
+    respostas: [
+      "Top",
+      "Mid",
+      "Bot",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do estúdio que desenvolveu League of Legends?",
+    respostas: [
+      "Valve Corporation",
+      "Blizzard Entertainment",
+      "Riot Games",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é a função do suporte em League of Legends?",
+    respostas: [
+      "Fornecer cura e apoio à equipe",
+      "Atacar e causar dano ao inimigo",
+      "Dominar objetivos neutros",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do dragão que concede bônus elementais à equipe que o derrota em League of Legends?",
+    respostas: [
+      "Barão Nashor",
+      "Dragão Ancião",
+      "Dragão Elemental",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a função do barão Nashor em League of Legends?",
+    respostas: [
+      "Conceder ouro e experiência à equipe que o derrota",
+      "Fortalecer minions da equipe que o derrota",
+      "Conceder bônus de ataque e habilidades à equipe que o derrota",
+    ],
+    correta: 2
+  },
+];
+
   
   const quiz = document.querySelector('#quiz') //# = id
   const template = document.querySelector('template') //querySelector seleciona determinado elemento de dentro da constante
